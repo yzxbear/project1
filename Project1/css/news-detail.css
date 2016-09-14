@@ -1,0 +1,25 @@
+.content{height: 760px;overflow: hidden;}
+		.top{width: 80%;margin: 0 auto;}
+		.top h1{font-size: 72px;color: #333;font-weight: lighter;margin-left: -300px;}
+		.top h1 b{font-weight: bold;color: #ff001e;}
+		.top hr{position: absolute;border: none;}
+		#suxian{width: 3px;height: 680px;background-color: #333;left: 290px;top: -1000px;}
+		#henxian{width: 800px;height: 5px;background-color: #000;top: 120px;}
+		.center{width: 100%;}
+		.center .left{width: 20%;}
+		.center .left b{
+			font-size: 150px;
+			font-weight: bolder;
+			/*color: #555;*/
+			transform: rotate(-90deg);
+			display: block;
+			position: absolute;
+			top: 400px;
+			left: 2%;
+			opacity: 0;
+		}
+		.center .right{width: 600px;float: right;margin-right: 100px;margin-top: -1000px;}
+		.center .right h2{font-size: 18px;font-weight: bold;color: #ff001e;}
+		.center .right h3{font-size: 18px;font-weight: bold;margin-top: 10px;}
+		.center .right p{font-size: 14px;text-indent: 2em;line-height: 24px;margin-top: 15px;}
+		.center .right img{margin-left: 75px;margin-top: 10px;}

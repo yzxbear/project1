@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<style>
+		.container{width: 100%;padding: 0;}
+		.Mycontainer ul li a{text-decoration: none;}
+		.content_index figure a{text-decoration: none;}
+	</style>
+	<script>
+		$(function(){
+			$('.main').animate({'opacity':'1'},600);
+			$('.pics img').mouseover(function(){
+				$(this).stop().animate({'margin-left':'-180px'},600).animate({'margin-left':'0px'},600);
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="main">
+		<header><img src="../imgs/logo/Logo.jpg"><h1>梅赛德斯奔驰•中国</h1></header>
+		<div class="container">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active"><img src="../imgs/main/pic1.jpg" alt="" />	
+					</div>
+					<div class="item"><img src="../imgs/main/pic2.jpg" alt="" /></div>
+					<div class="item"><img src="../imgs/main/pic3.jpg" alt="" /></div>
+					<div class="item"><img src="../imgs/main/pic4.jpg" alt="" /></div>
+					<div class="item"><img src="../imgs/main/pic5.jpg" alt="" /></div>
+				</div>
+				<a class="carousel-control left" data-slide="prev" href="#myCarousel">
+					<span id="span-l"></span>	
+				</a>
+				<a class="carousel-control right" data-slide="next" href="#myCarousel">
+					<span id="span-r"></span>
+				</a>
+		</div>
+	</div>
+		<div class="Mycontainer">
+			<ul>
+				<li class="active"><a href="index.html">首页</a></li>
+				<li><a href="about.html">公司简介</a></li>
+				<li><a href="cars.html">车型列表</a></li>
+				<li><a href="news.html">新闻列表</a></li>
+				<li><a href="contact.html">联系我们</a></li>
+			</ul>
+			<div class="content_index">
+				<div class="pics"><img src="../imgs/main/Tab_Pic1.jpg">
+					<p>限时购车方案</p>
+					<span></span>
+				</div>
+				<div class="pics"><img src="../imgs/main/Tab_Pic2.jpg">
+					<p>申请试驾</p>
+					<span></span>
+				</div>
+				<div class="pics"><img src="../imgs/main/Tab_Pic3.jpg">
+					<p>查找经销商</p>
+					<span></span>
+				</div>
+				<div class="pics"><img src="../imgs/main/Tab_Pic4.jpg">
+					<p>金融计算器</p>
+					<span></span>
+				</div>
+				<div class="pics"><img src="../imgs/main/Tab_Pic5.jpg">
+					<p>售后服务</p>
+					<span></span>
+				</div>
+				<article>
+					>精选定制<br>
+					梅赛德斯-奔驰精选定制，以专业的造车方法和经验，<br>
+					为不同的车型配置最佳选装方案。四种套装，集合梅<br>
+					赛德斯-奔驰引以为傲的技术与工艺，满足消费者日<br>
+					趋多样的要求与追求
+				</article>
+				<article>
+					>车型配置<br>
+					梅赛德斯-奔驰旨在为消费者打造最具人性化的选车<br>
+					和购车体验，在车型配置平台中可根据您的喜好随<br>
+					意搭配爱车的内饰、外观及配件等，并可通过360°<br>
+					全方位看车，为您带来更直观的感受。
+				</article>
+				<figure><img src="../imgs/logo/weibo.png"><a href="#">梅赛德斯奔驰-新浪微博</a></figure>
+				<figure><img src="../imgs/logo/weixin.png"><a href="#">梅赛德斯奔驰-官方微信</a></figure>
+			</div>
+		</div>
+		<footer>
+			更多选购方式：前往 Mercedes-Benz 零售店，致电 400-666-8800 或查找在你附近的授权经销商。<br>
+						Copyright © 2016 Mercedes Inc. 保留所有权利。<br>
+						隐私政策 使用条款 销售政策 法律信息 网站地图<br> 
+						京公安网安备 11010502008968 京ICP备10214630
+		</footer>
+	</div>
+</body>
+</html>

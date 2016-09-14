@@ -1,0 +1,45 @@
+.content{height: 760px;overflow: hidden;}
+		.top{width: 80%;margin: 0 auto;}
+		.top h1{font-size: 72px;color: #333;font-weight: lighter;margin-left: -300px;}
+		.top h1 b{font-weight: bold;color: #ff001e;}
+		.top hr{position: absolute;border: none;}
+		#suxian{width: 3px;height: 680px;background-color: #333;left: 290px;top: -1000px;}
+		#henxian{width: 800px;height: 5px;background-color: #000;top: 120px;}
+		.center{width: 100%;}
+		.center .left{width: 20%;}
+		.center .left b{
+			font-size: 150px;
+			font-weight: bolder;
+			/*color: #555;*/
+			transform: rotate(-90deg);
+			display: block;
+			position: absolute;
+			top: 400px;
+			left: 2%;
+			opacity: 0;
+		}
+		.right{width: 60%;float: right;margin-right: 100px;margin-top: -1000px;}
+		.right div{width: 540px;font-size: 14px;margin-top: 20px;}
+		.right .show{height: 190px;}
+		.right .show a{background-image: url(../imgs/other/箭头3-show.png);background-size: 25px 20px;}
+		.right a{
+			width: 600px;
+			height: 25px;
+			background-image: url(../imgs/other/箭头3.png);
+			background-size: 20px 25px;
+			background-repeat: no-repeat;
+			background-position: left center;
+		}
+		.right a:hover{
+			/*text-shadow: 0 1px 5px #555;*/
+			filter: drop-shadow(2px 2px 10px rgba(0,0,0,.5));
+			-ms-filter: drop-shadow(2px 2px 10px rgba(0,0,0,.5));
+			-webkit-filter: drop-shadow(2px 2px 10px rgba(0,0,0,.5));
+			-o-filter: drop-shadow(2px 2px 10px rgba(0,0,0,.5));
+			-moz-filter: drop-shadow(2px 2px 10px rgba(0,0,0,.5));
+		}
+		.right a h3{font-weight: bold;margin-left: 50px;line-height: 25px;}
+		.right a h3 span{color: #ff001e;}
+		.right p{text-indent: 3em;line-height: 24px;margin-top: 10px;}
+		#more{background: none;float: right;width: 100px;}
+		#more i{color: #ff001e;}
